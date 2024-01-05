@@ -1,0 +1,26 @@
+/* shared style  */
+.body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+
+.primary-text{
+    font-family: 'Open Sans';
+}
+
+/* nav bar */
+nav ul{
+    list-style: none;
+    gap: 50px;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+
+}
