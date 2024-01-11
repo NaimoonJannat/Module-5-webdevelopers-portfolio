@@ -41,7 +41,7 @@ nav{
 nav ul{
     display: flex;
     list-style: none;
-    align-items:center ;
+    align-items:center;
 }
 nav li{
     list-style: none;
@@ -79,7 +79,7 @@ nav a{
 }
 .details{
     color: #757575;
-    margin: 15px;
+    margin: 15px 0px;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -106,9 +106,9 @@ nav a{
 
 /* about section  */
 .aboutme-box{
-    margin-top: 150px;
-    margin-left: 400px;
     background-color: #FFF8F3;
+    width: 65%;
+    margin: 150px auto;
     max-width: 1150px;
     padding: 130px 150px;
     text-align: center;
@@ -128,17 +128,21 @@ nav a{
 
 /* what I do section */
 .my-works{
-    margin: 150px 250px;
+    margin: 150px auto;
+    width: 65%;
     max-width: 1150px;
     padding: 130px 150px;
     text-align: center;
 
 }
+
 /* skill set  */
 
 .skillset{
     display: flex;
-    margin: 30px;
+    margin: 30px auto;
+    width: 50%;
+    justify-content: center;
 }
 .skill{
     padding: 30px;
@@ -157,24 +161,19 @@ nav a{
 
 /* Summery of resume */
 .summery{
-    margin: 150px 250px;
     max-width: 1150px;
-    padding: 130px 150px;
+    width: 65%;
+    margin: 0px auto;
+    align-items: center;
 }
-
 .column{
     display: flex;
-    justify-content: space-between;
 }
 .resume-title{
     margin-top: 50px;
     margin-left: 10px;
     color: #474747;
     font-size: 30px;
-}
-.resume-info{
-    
-    margin: 30px 20px 30px 20px;
 }
 .resume-info-name{
     color: #474747;
@@ -199,22 +198,26 @@ nav a{
 }
 
 /* footer section  */
+footer{
+    background-color: #FFF8F3;
+}
 
 .footbox{
     text-align: left;
-    padding: 130px 230px;
-    background-color: #FFF8F3;
+    padding: 100px;
+    width: 65%;
+    margin: 150px auto 0px;
     display: flex;
-    justify-content: space-between;
     gap: 100px;
-    
 }
+
 .foot-title{
     color: #181818;
     text-align: left;
     font-size: 35px;
     font-weight: 700;
 }
+
 .col{
     width: 50%;
 }
@@ -240,3 +243,15 @@ textarea{
 
 
 
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav ul{
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+}
